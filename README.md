@@ -1,11 +1,10 @@
-# azure-terraform-[MODULE_NAME]
+# azure-terraform-bastion-host
 
-## Create a simple [MODULE_NAME] in Azure
+## Create a simple Bastion Host] in Azure
 
-This Terraform module deploys a [MODULE_NAME] in Azure .
+This Terraform module deploys a Baston Host in Azure .
 
-The module [MODULE_DESCRIPTION].
-You could use https://github.com/n3tlix/azure-terraform-network to assign network security group and routing tables to the subnets.
+You could use https://github.com/n3tlix/azure-terraform-network to find a Bastion Host example deployment into a VNET.
 
 ## Usage in Terraform 0.13
 ```hcl
