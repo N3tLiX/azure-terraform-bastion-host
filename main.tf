@@ -15,7 +15,6 @@ locals {
   tags = merge(var.tags, local.module_tag)
 }
 
-
 resource "azurerm_public_ip" "public_ip" {
   name                = "${var.name}-pip"
   location            = var.location
